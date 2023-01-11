@@ -18,7 +18,7 @@ API_KEY=<yourapikey>
 
 ## API End points
 
-### 1. GET http://localhost:8000/v1/ascii/`<keyword>`
+### 1. GET http://localhost:8000/v1/ascii/ `{keyword}`
 &rarr; Give the keyword you want to search for and it will return the ascii art in ansi escape code.
 
 ### 2. POST http://localhost:8000/v1/ascii/file
