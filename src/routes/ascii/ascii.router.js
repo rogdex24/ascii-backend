@@ -9,6 +9,6 @@ const asciiRouter = express.Router();
 
 // routing all "GET v1/ascii/*" req to relevant fxns in controller
 asciiRouter.get("/:text", httpGetImageFromText);
-asciiRouter.post("/file");
+asciiRouter.post("/file", httpGetImageFromFile);
 
 module.exports = asciiRouter;
