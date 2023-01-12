@@ -1,6 +1,6 @@
 # ASCII Backend
 
-## Getting Started
+## Setting up the Project
 
 1. Ensure you have Node.js installed.
 2. Create a New Project and Enable Google Custom Search API in [Google Cloud Platform](https://stackoverflow.com/a/11100863/11771587) and get your API KEY from [Custom Search JSON API](https://developers.google.com/custom-search/v1/introduction).
@@ -9,7 +9,8 @@
 // .env file 
 API_KEY=<yourapikey>
 ```
-4. In the terminal, run: `npm install`
+4. run 'sudo apt-get install graphicsmagick`
+5. In the terminal, run: `npm install`
 
 ## Running the Project (Dev)
 
