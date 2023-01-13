@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon src/server.js",
-    "start": "cross-env PORT=5000 node src/server.js"
+    "start": "cross-env PORT=5000 node src/server.js",
+    "install": "sudo apt-get install graphicsmagick && npm run install",
   },
   "keywords": [],
   "author": "",
